@@ -75,8 +75,9 @@ import "./BEP20Token.sol";
 5. After deployment, you should see both the **implementation contract** and the **proxy contract** under the **Deployed Contracts** section.
 
 
-### Step 5: Contract Initialization (Not Required for Proxy Deployment)
-- Since the contract is deployed as a proxy, the **initialize()** function will be automatically called during deployment, and no manual initialization is needed.
+### Step 5: Contract Initialization (Not Required)
+- No arguments required for for initialization as the values are predefined in the contract. 
+- The **initialize()**function will be automatically called during deployment, so no manual initialization is required.
 
 ## Interaction with UltraToken
 
