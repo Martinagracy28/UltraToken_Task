@@ -67,7 +67,7 @@ import "./BEP20Token.sol";
 
 3. **Proxy Deployment**:
    - Once you select **UltraToken**, a checkbox labeled **Deploy as Proxy** will appear.
-   - Check the **Deploy as Proxy** option. This ensures that both the **implementation** and **proxy** contracts are deployed simultaneously, allowing for future upgrades.
+   - Check the **Deploy with Proxy** option. This ensures that both the **implementation** and **proxy** contracts are deployed simultaneously, allowing for future upgrades.
    - You can now proceed by clicking the **Deploy** button.
 
 4. Confirm the deployment transaction in MetaMask.
