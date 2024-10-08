@@ -25,7 +25,6 @@ Before deploying and interacting with this contract, ensure you have the followi
 3. [Contract Functions](#contract-functions)
 4. [Admin Functions](#admin-functions)
 5. [Upgrade the Contract](#upgrade-the-contract)
-6. [License](#license)
 
 ## Deployment Using Remix
 
@@ -132,7 +131,5 @@ This contract supports the **UUPS proxy upgrade** pattern, allowing you to upgra
 
 **Note**: If the new implementation includes new state variables, ensure that the contract has an `initialize()`  function to properly set the new variables or logic.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
